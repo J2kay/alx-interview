@@ -16,7 +16,7 @@ def minOperations(n):
     count = 0
     while temp < n:
         remainder = n - temp
-        if (remainder % current == 0):
+        if (remainder % temp == 0):
             initial = temp
             temp += initial
             count += 2
